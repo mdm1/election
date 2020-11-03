@@ -1,0 +1,69 @@
+/* Your board style here */
+body.blue {
+  background-color: blue;
+}
+
+body.red {
+  background-color: red;
+}
+
+h1.white {
+  color: white;
+  font-weight: bold;
+}
+
+.racer-table {
+  border-collapse: collapse;
+}
+
+.racer-table td {
+  height: 200px;
+  width: 200px;
+  border-left: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+}
+
+.racer-table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#player1-race td.active {
+  background-image: url("images/biden.jpeg");
+  background-position: bottom;
+  background-size: cover;
+}
+#player2-race td.active {
+  background-image: url("images/trump.jpeg");
+  background-position: bottom;
+  background-size: cover;
+}
+
+#player1-race td.finish {
+  background-image: url("images/end.jpg");
+  background-size: cover;
+}
+
+#player2-race td.finish {
+  background-image: url("images/end.jpg");
+  background-size: cover;
+}
+
+#player1-race td.past {
+  background-image: url("images/smoke.jpeg");
+  background-size: cover;
+}
+#player2-race td.past {
+  background-image: url("images/smoke.jpeg");
+  background-size: cover;
+}
+
+#player1-race td.bidenWins {
+  background-image: url("images/bidenwins.jpg");
+  background-size: cover;
+}
+#player2-race td.trumpWins {
+  background-image: url("images/trumpWins.jpg");
+  background-size: cover;
+}
+
